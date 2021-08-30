@@ -1,0 +1,52 @@
+<%- include('partials/header.ejs') %>
+
+  <header>
+    <div class="container">
+      <div class="top-nav">
+        <div class="branding">
+          <a href="/"><h1><i class="fas fa-globe-europe"></i> Solar System</h1></a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="bottom-nav">
+        <a href="/sun"> Sun </a>
+        <a href="/mercury"> Mercury </a>
+        <a href="/venus" style="color: darkgray;"> Venus </a>
+        <a href="/earth"> Earth </a>
+        <a href="/mars"> Mars </a>
+        <a href="/jupiter"> Jupiter </a>
+        <a href="/saturn"> Saturn </a>
+        <a href="/uranus"> Uranus </a>
+        <a href="/neptune"> Neptune </a>
+        <a href="/pluto"> Pluto </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="showcase fade" style="background-image: url('/images/venus.jpg')">
+      <div class="overlay">
+        <div class="main-text">
+          <h1>Venus</h1>
+          <p>Venus is the second planet from the Sun. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be, on rare occasions, visible to the naked eye in broad daylight. Venus lies within Earth's orbit, and so never appears to venture
+          far from the Sun, either setting in the west just after dusk or rising in the east a little while before dawn. Venus orbits the Sun every 224.7 Earth days.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="content venus">
+      <div class="text">
+        <div class="inner-text">
+          <h1>Goddess of Love & Beauty</h1>
+          <p>It is named after the Roman goddess of love and beauty. However, Roman Venus had many abilities beyond the Greek Aphrodite; she was a goddess of victory, fertility, and even
+          prostitution.</p>
+        </div>
+      </div>
+      <div class="image" style="background-image: url('<%= venusUrl[25].urls.raw  %>')"></div>
+    </div>
+  </div>
+
+  <%- include('partials/footer.ejs') %>
